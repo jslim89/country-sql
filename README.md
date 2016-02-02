@@ -29,10 +29,14 @@ $ sips -Z 44 /path/to/flags/*.png
 Most of the countries flag are taken from [http://flagpedia.net](http://jsl.im/vbgpc).
 Some of them taken from [Wikipedia](http://jsl.im/vkcau).
 
+Coordinates get from Google API
+
+`https://maps.googleapis.com/maps/api/geocode/json?components=country:Malaysia|administrative_area=Kuala+Lumpur&key=<API KEY>`
+
 ## License
 The MIT License (MIT)
 
-Copyright (c) 2014 Js Lim
+Copyright (c) 2014 - 2016 Js Lim
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
